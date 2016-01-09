@@ -1,0 +1,146 @@
+html,body,div,h1,p,img,ul,li{
+    margin:0;/*外边距*/
+    padding: 0;/*内边距*/
+}
+body{
+    background: gray;
+    font-family:"Hiragino Sans GB W3","Hiragino Sans GB W6",Arial,sans-serif;
+    font-size: 100%;
+}
+.web{
+    width: 100%;
+    max-width:640px;
+    margin:0 auto;
+    color:#fff;
+    background:#29bde0;
+}
+.header{
+    width: 100%;
+    background: #29bde0;
+    border-bottom: 1px solid #74d4eb;/*设置下边框的样式*/
+}
+.header h1{
+    text-align: center;
+    font-size: 2em;
+    padding-top:3%;
+    padding-bottom: 1.25%
+
+}
+.home{
+    width: 8%;
+    float: left;/*左*/
+    padding-top: 1%;
+    padding-left: 3%;
+}
+.home img{
+    width: 70px;
+}
+.help{
+    width:8%;
+    float:right;/*右*/
+    padding-right: 3%;
+}
+.help{
+    width: 67px;
+}
+.header2{
+    width: 100%;
+    background: #29bde0;
+}
+.header3{
+    width: 75%;
+    background: #29bde0;
+    margin: 0 auto;
+}
+.header3 p{
+    color: #ffc865;
+    font-size: 1.94em;
+    padding-top:1% ;
+    font-family: "Hiragino Sans GB W6", sans-serif;
+    font-weight: 300;
+}
+.win{
+    width: 55%;
+    text-align: center;
+    padding-left: 22%;
+}
+.neirong{
+    width: 80%;
+    background: #29bde0;
+    margin-top:10%;
+    margin-bottom:5%;
+}
+.neirong p{
+    color: white;
+    font-size: 1.5em;
+    font-family: "Hiragino Sans GB W6", sans-serif;
+    margin-left: 16%;
+    line-height: 35px;/*段间隔*/
+}
+.content{
+    background:#ffffff;
+    border-top:2px solid #ddd;
+}
+.day{
+    width: 100%;
+    margin:0 auto;
+    border-bottom:2px solid #ddd;
+}
+.day h1{
+    font-size: 2em;
+    color:#515151 ;
+    padding-top: 12px;
+    margin-left: 12%;
+    margin-bottom: 4%;
+}
+.day span{
+    font-size:1.2em;
+    color:#a6a6a6;
+    float:right;
+    margin:-8.5% 15%;
+}
+.day p{
+    padding: 2px 12%;
+    font-size: 1.5em;
+    color:#a6a6a6;
+}
+
+.anniu{
+    position: fixed;
+    background: rgba(153,233,240,0.8);
+    bottom: 0;
+    font-size: 3em;
+    width: 100%;
+    max-width: 640px;
+}
+.again{
+    background: #f66f6f;
+    float: left;
+    margin: 20px 29px;
+    border-radius:10px ;
+
+}
+.again p{
+    padding:20px 25px ;
+    color: #ffffff;
+}
+.vcs{
+    background: #fbb435;
+    float:left;
+    margin:20px 25px;
+    border-radius: 10px;
+}
+.vcs p{
+    padding:20px 25px;
+    color: #ffffff;
+}
+.div {
+    display: block;
+}
+@media screen and (max-width: 640px) {
+    html {
+        font-size: 67%;
+    }
+}
+
+
