@@ -1,0 +1,127 @@
+html{
+    font-size:62.5%;
+}
+html,body,div,p,img,{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    background:#29bde0;
+
+}
+.head{
+    width: 100%;
+    padding: 3% 0 3.5% 0;
+
+}
+.menu{
+    float:left;
+    margin:0 0 0 4%;
+}
+.fork{
+    float: right;
+    margin:0 4% 0 0;
+}
+.head p{
+    color: #ffffff;
+    font-size: 3em;
+    text-align:center;
+}
+.discuss{
+    background: #b9e9f5;
+    padding: 5% 0 5% 0;
+}
+.discuss p{
+    color: #22292c;
+    font-size:2.5em;
+    position: relative;
+    left: 9.5%;
+
+}
+.mp3{
+    float:right;
+    margin: 0 2% ;
+    position:relative;
+    bottom: 40px;
+    right: 5px;
+}
+.centent{
+    background:#29bde0;
+    width: 100%;
+    padding: 0;
+}
+.triangle{
+    position:relative;
+    left: 11%;
+    width: 18px;
+}
+.centent p{
+    color: #f8f6f5;
+    font-size: 2.2em;
+    position:relative;
+    left: 13%;
+    padding: 1% 0 2% 0;
+    margin: 0;
+}
+.occupation{
+    width: 22%;
+    margin: 0 5% 3.5% 6%;
+    float: left;
+}
+.occupation div{
+    margin: 17% 0;
+    border: 5px solid #fff ;
+    cursor:pointer;
+    overflow:hidden;/*³¬¹ýdivÒþ²Ø*/
+}
+.occupation p{
+    background:#f5c97b;
+    width: 100%;
+    padding:25% 0;
+    text-align:center;
+    font-size: 3rem;
+    color: #22292c;
+    position:relative;
+    left: 0;
+
+}
+.occupation p ~p{
+    background:#83b09a;
+    width: 100%;
+    padding: 3% 0;
+    text-align: center;
+    font-size: 2em;
+    color:#fff;
+}
+.number{
+    background: #83b09a;
+}
+.last{
+    background: #29bde0;
+    width: 100%;
+    max-width: 640px;
+    border-top: 1px solid #ffffff;
+    padding: 3% 0 4% 0;
+    position: fixed;
+    bottom: 0;
+}
+.last p{
+    background: #fbb435;
+    color:#ffffff;
+    text-align:center;
+    width: 80%;
+    padding: 2.5% 0;
+    font-size: 4rem;
+    margin: 0 auto;
+}
+.button{
+    background:#fbb435;
+}
