@@ -52,6 +52,7 @@ html,body,div,p,img,{
     position:relative;
     bottom: 40px;
     right: 5px;
+    cursor:pointer;
 }
 .centent{
     background:#29bde0;
@@ -73,7 +74,7 @@ html,body,div,p,img,{
 }
 .occupation{
     width: 22%;
-    margin: 0 5% 3.5% 6%;
+    margin: 0 5% 0% 6%;
     float: left;
 }
 .occupation div{
@@ -91,8 +92,9 @@ html,body,div,p,img,{
     color: #22292c;
     position:relative;
     left: 0;
-
 }
+.occupation:hover span {opacity:100}
+
 .occupation p ~p{
     background:#83b09a;
     width: 100%;
@@ -103,6 +105,40 @@ html,body,div,p,img,{
 }
 .number{
     background: #83b09a;
+}
+.occupation .pen{
+    background:url("../images/task6_4.png")center no-repeat #fff;
+    width:21%;
+    display: inline-block;
+    padding: 11% 0;
+    opacity:0;
+    text-align:center;
+}
+.occupation .Magnifier{
+    width:21%;
+    padding:11% 0;
+    background: url("../images/task6_5.png" )center no-repeat #fff;
+    display: inline-block;
+    margin: 0 auto;
+    opacity:0;
+    text-align:center;
+}
+.occupation .greencross{
+    width:21%;
+    padding:11% 0;
+    background: url("../images/task6_6.png" )center no-repeat #fff;
+    display: inline-block;
+    margin: 0 auto;
+    opacity:0;
+    text-align:center;
+}
+.occupation .redcross{
+    width:21%;
+    padding:11% 0;
+    background: url("../images/task6_7.png" )center no-repeat #fff;
+    display: inline-block;
+    margin: 0 auto;
+    opacity:0;
 }
 .last{
     background: #29bde0;
