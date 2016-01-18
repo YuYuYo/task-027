@@ -1,0 +1,229 @@
+html,body,div,p,span,a,img{
+    margin: 0;
+    padding: 0;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+@media screen and (max-width:321px){
+    html{
+        font-size: 30.5%;
+    }
+}
+@media screen and (max-width: 373px)and (min-width: 321px){
+    html{
+        font-size: 34.5%;
+    }
+}
+@media screen and (max-width: 376px)and (min-width: 374px){
+    html{
+        font-size: 36.5%;
+    }
+
+}
+@media screen and (max-width: 386px) and  (min-width:377px ){
+    html{
+        font-size: 35.5%;
+    }
+}
+
+@media screen and (max-width: 416px) and (min-width: 387px){
+    html{
+        font-size: 40.5%;
+    }
+
+}
+@media screen and (max-width: 580px) and (min-width: 417px){
+    html{
+        font-size: 51%;
+    }
+}
+
+@media screen and (max-width: 639px) and (min-width:580px ){
+    html{
+        font-size: 59%;
+    }
+}
+.content{
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+
+}
+
+.head{
+    width: 100%;
+    background: #29bde0;
+    padding: 6% 0;
+    position: relative;
+    border-bottom: 1px solid #74d4eb;
+}
+.home{
+    width: 8%;
+    position: absolute;
+    top: 18%;
+    left: 4%;
+}
+
+.mark{
+    width: 6.5%;
+    position: absolute;
+    top: 18%;
+    right: 3%;
+}
+.head p{
+    font-family: "Hiragino Sans GB W3", Arial, sans-serif;
+    font-size: 3.5rem;
+    color: #ffffff;
+    position: absolute;
+    top: 31%;
+    left: 39%;
+}
+
+.heart-one{
+    width: 100%;
+    background: #29bde0;
+    position: relative;
+    padding: 49.1% 0;
+}
+.win{
+    width: 53%;
+    position: absolute;
+    top: 4%;
+    left: 22.5%;
+}
+.heart-one p{
+    font-family: "Hiragino Sans GB W3", sans-serif;
+    font-size: 4.7rem;
+    color: #ffffff;
+    position: absolute;
+    font-weight: 900;
+    top: 25%;
+    left: 34%;
+}
+
+.heart-one p~p{
+    color: #ffc865;
+    font-size: 3.4rem;
+    top: 39%;
+    left: 12%;
+    font-weight: 900;
+}
+
+.heart-one p~p~p{
+    top: 46%;
+    Letter-spacing:0.7px;
+}
+
+.heart-one p~p~p~p{
+    top: 53%;
+}
+.heart-one span{
+    position:absolute;
+    color: #ffffff;
+    font-size: 2.7rem;
+    font-family: "Hiragino Sans GB W3", sans-serif;
+    bottom:28.5%;
+    left: 12%;
+}
+
+.heart-one span~span{
+    bottom:22.5%;
+    left: 12%;
+}
+.heart-one span~span~span{
+    bottom:16.5%;
+}
+
+.heart-one span~span~span~span{
+    bottom:10.5%;
+}
+
+.heart-one span~span~span~span~span{
+    bottom:4.5%;
+}
+
+.heart-two{
+    width: 100%;
+    border-right: 1px solid #f8f6f5;
+    border-left: 1px solid #f8f6f5 ;
+}
+
+.day{
+     width: 100%;
+     background-color: #ffffff;
+     padding: 12.7% 0;
+     position: relative;
+     border-bottom: 2px solid #dddddd;
+}
+
+.day a{
+     color: #515151;
+     position: absolute;
+     font-size: 3rem;
+     top: 7%;
+     left: 12%;
+}
+
+.day span{
+    color:#a6a6a6;
+    font-size: 2.4rem;
+    position: absolute;
+    top: 10%;
+    right: 15%;
+}
+.day p{
+    font-size: 2.83rem;
+    color: #a6a6a6;
+    position:absolute;
+    top:41%;
+    left: 12.4%;
+    font-weight: 300;
+}
+.day p~p{
+    top: 65%;
+}
+.butten{
+    width: 100%;
+    max-width: 640px;
+    position: fixed;
+    bottom: 0;
+
+}
+.btn{
+    width: 100%;
+    background:#99dff0;
+    position:relative;
+    padding: 12% 0;
+    opacity: 0.8;
+}
+.again{
+    background: #f66f6f;
+    color: #ffffff;
+    position:absolute;
+    padding: 3% 8.3%;
+    left: 4%;
+    top: 20%;
+    border-radius:5px;
+}
+.up{
+    background: #fbb435;
+    color: #ffffff;
+    position: absolute;
+    padding: 3% 6.3%;
+    right: 4%;
+    top: 20%;
+    border-radius:5px;
+}
+.btn p{
+    font-size: 4rem;
+}
+
