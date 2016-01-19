@@ -74,7 +74,7 @@ html,body,div,p,img,{
 }
 .occupation{
     width: 22%;
-    margin: 0 5% 0% 6%;
+    margin: 0 5% 0 6%;
     float: left;
 }
 .occupation div{
@@ -111,34 +111,30 @@ html,body,div,p,img,{
     width:21%;
     display: inline-block;
     padding: 11% 0;
-    opacity:0;
-    text-align:center;
+
 }
 .occupation .Magnifier{
     width:21%;
     padding:11% 0;
     background: url("../images/task6_5.png" )center no-repeat #fff;
     display: inline-block;
-    margin: 0 auto;
-    opacity:0;
-    text-align:center;
+
+
 }
 .occupation .greencross{
     width:21%;
     padding:11% 0;
     background: url("../images/task6_6.png" )center no-repeat #fff;
     display: inline-block;
-    margin: 0 auto;
-    opacity:0;
-    text-align:center;
+
+
 }
 .occupation .redcross{
     width:21%;
     padding:11% 0;
     background: url("../images/task6_7.png" )center no-repeat #fff;
     display: inline-block;
-    margin: 0 auto;
-    opacity:0;
+
 }
 .last{
     background: #29bde0;

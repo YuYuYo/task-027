@@ -1,0 +1,294 @@
+html,body,div,img,p,a,span{
+    margin: 0;
+    padding:  0;
+
+}
+
+.div{
+    display: block;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: "Microsoft YaHei";
+}
+
+@media screen and (max-width:321px){
+    html{
+        font-size: 30%;
+    }
+}
+
+@media screen and (max-width: 373px)and (min-width: 321px){
+    html{
+        font-size: 34.5%;
+    }
+}
+
+@media screen and (max-width: 376px)and (min-width: 374px){
+    html{
+        font-size: 36.5%;
+    }
+}
+
+@media screen and (max-width: 386px) and  (min-width:377px ){
+    html{
+        font-size: 35.5%;
+    }
+}
+
+@media screen and (max-width: 416px) and (min-width: 387px){
+    html{
+        font-size: 40.5%;
+    }
+}
+
+@media screen and (max-width: 580px) and (min-width: 417px){
+    html{
+        font-size: 51%;
+    }
+}
+
+@media screen and (max-width: 639px) and (min-width:580px ){
+    html{
+        font-size: 59%;
+    }
+}
+
+
+.web{
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    overflow: hidden;/*隐藏*/
+}
+
+.head{
+    position: relative;
+    background: #29bde0;
+    transition: all 1s;/*回来时用多少秒*/
+    -webkit-animation: all 1s;
+}
+
+.more{
+    width: 6%;
+    float: left;
+    padding: 2.5% 0 0  4%;
+    cursor: pointer;
+
+}
+
+
+.close{
+    width: 6%;
+    float: right;
+    padding: 2.5% 4% 0 0;
+    cursor: pointer;
+}
+
+.head p{
+    font-size: 3.3rem;
+    color: #ffffff;
+    text-align: center;
+    padding:  2% 0;
+    font-weight: 300;
+}
+
+.heart{
+    position: relative;
+    transition: all 1s;/*回来时用多少秒*/
+    -webkit-animation: all 1s;
+}
+
+.mp3{
+    background: #b9e9f5;
+}
+
+.start{
+    width: 8.1%;
+    float: right;
+    padding: 2.4% 2.9% 0 0;
+    cursor: pointer;
+}
+
+.mp3 p{
+    font-size: 2.7rem;
+    color: #708287;
+    padding: 4% 0;
+    margin-left: 9.5%;
+    font-weight: 400;
+}
+
+.content{
+    background: #29bde0;
+    width: 100%;
+
+}
+
+.notes{
+    width: 2.5%;
+    padding: 0 0 0 12%;
+}
+
+.content p{
+    color: #ffffff;
+    font-size: 2.4rem;
+    padding: 1% 0 1% 12%;
+    font-weight: 100;
+}
+
+.occupation{
+    width: 21.5%;
+    float: left;
+    margin: 5.3% 5% 3% 6%;
+    display: block;
+    position: relative;
+}
+
+.occupation div{
+    margin:1%  0 15% 0;
+    border: 5px solid #ffffff;
+    cursor: pointer;
+
+}
+.occupation p{
+    color: #22292c;
+    background: #f5c97b;
+    width: 100%;
+    font-size: 2.8rem;
+    padding: 24% 0;
+    text-align: center;
+    display: block;
+    font-weight: 400;
+}
+
+.occupation p~p{
+    color: #ffffff;
+    background: #83b09a;
+    font-size: 2.3rem;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    font-weight: 200;
+}
+.occupation .pen{
+    width:22.5%;
+    padding:11.5% 0;
+    background: url("../img/task6/pen.png" ) center no-repeat #ffffff;
+    background-size: 90%;/*自适应图片*/
+    position: absolute;
+    top:100%;
+    opacity:0;/*透明度0-1*/
+
+}
+
+.occupation .magnifier{
+    width: 22.5%;
+    background: url("../img/task6/magnifier.png")center no-repeat #ffffff;
+    padding:11.5% 0;
+    background-size: 60%;/*自适应图片*/
+    position: absolute;
+    top:100%;
+    left: 26%;
+    opacity: 0;/*透明度0-1*/
+
+}
+
+.occupation .greencentent{
+    width: 22.5%;
+    background: url("../img/task6/greencentent.png")center no-repeat #ffffff;
+    padding:11.5% 0;
+    background-size: 90%;/*自适应图片*/
+    position: absolute;
+    top:100%;
+    left:52%;
+    opacity: 0;/*透明度0-1*/
+}
+
+.occupation .redcentent{
+    width: 22.5%;
+    background: url("../img/task6/redcentent.png")center no-repeat #ffffff;
+    padding:11.5% 0;
+    background-size: 50%;/*自适应图片*/
+    position: absolute;
+    top:100%;
+    left: 78%;
+    opacity: 0;/*透明度0-1*/
+}
+
+.occupation:hover span {opacity:100}/*进到span会显示出隐藏属性*/
+
+
+.blank_footer{
+    width: 100%;
+    padding: 18%;
+    clear: both;
+}
+
+.btn{
+    width: 100%;
+    max-width: 640px;
+    background: #29bde0;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+}
+
+.btn-one{
+    width: 86%;
+    background: #29bde0;
+    border-top: 1px solid #ffffff;
+    padding: 7% 0 10% 0;
+    margin:  0 auto;
+}
+
+.btn p{
+    width: 70%;
+    font-size: 3.7rem;
+    color: #ffffff;
+    font-weight: 300;
+    background: #fbb435;
+    text-align: center;
+    margin:  0 auto;
+    padding: 3.5% 12.8% ;;
+}
+
+.more-last{
+    width: 100%;
+    max-width: 640px;
+    position: fixed;
+    top: 0;
+    z-index: -1;/*在界面后以为*/
+    background: #ffffff;
+}
+
+.last-title{
+    width: 100%;
+    background: #29bde0;
+    padding: 5% 0;
+    position: relative;
+}
+
+label{
+    cursor:default;
+}
+
+#more{
+    display: none;
+}
+#more:checked ~ .head{
+    -webkit-transform: translateX(75%);
+    transform: translateX(75%);
+    transition: all 1s;
+    -webkit-animation: all 1s;
+}
+/*要checked~ .文档名字*/
+
+
+#more:checked ~ .heart{
+    -webkit-transform: translateX(75%);
+    transform: translateX(75%);
+    transition: all 1s;
+    -webkit-animation: all 1s;
+}
+/*要checked~ .文档名字*/
